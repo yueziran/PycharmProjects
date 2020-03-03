@@ -1,0 +1,15 @@
+2020-03-03 14:18:52,399INFO[root][login_params.py(test01_login_success:24)]-登录成功结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'f1b45a34-c5e2-4dff-8e83-7f032302a66d'}
+2020-03-03 14:18:52,492INFO[root][login_params.py(test01_login_success:24)]-登录成功结果：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-03 14:18:52,610INFO[root][login_params.py(test01_login_success:24)]-登录成功结果：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-03 14:18:52,752INFO[root][login_params.py(test01_login_success:24)]-登录成功结果：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-03 14:18:52,887INFO[root][login_params.py(test01_login_success:24)]-登录成功结果：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-03 14:18:53,012INFO[root][emp_params.py(test01_login_successs:26)]-员工登录结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '3833ba52-a324-43e5-b031-b1cf7cf4249e'}
+2020-03-03 14:18:53,013INFO[root][emp_params.py(test01_login_successs:29)]-取出的令牌：Bearer 3833ba52-a324-43e5-b031-b1cf7cf4249e
+2020-03-03 14:18:53,013INFO[root][emp_params.py(test01_login_successs:34)]-员工模块请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer 3833ba52-a324-43e5-b031-b1cf7cf4249e'}
+2020-03-03 14:18:53,086INFO[root][emp_params.py(test02_add_emp:39)]-添加员工结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234724905198899200'}}
+2020-03-03 14:18:53,087INFO[root][emp_params.py(test02_add_emp:44)]-添加的员工id：1234724905198899200
+2020-03-03 14:18:53,167INFO[root][emp_params.py(test03_query_emp:49)]-查询员工结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234724905198899200', 'mobile': '15288784454', 'username': 'Jack201', 'password': '36b786bd28829b906d62261544b2d3f4', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1066240656856453120', 'timeOfEntry': '2019-07-01T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': '1322131', 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2019-11-30T00:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '开发部', 'roleIds': [], 'staffPhoto': None}}
+2020-03-03 14:18:53,247INFO[root][emp_params.py(test04_update_emp:56)]-修改员工结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234724905198899200'}}
+2020-03-03 14:18:53,380INFO[root][emp_params.py(test04_update_emp:64)]-修改后查询sql:select username from bs_user where id = 1234724905198899200
+2020-03-03 14:18:53,419INFO[root][emp_params.py(test04_update_emp:67)]-修改后查询sql结果：(('Jacknew123',),)
+2020-03-03 14:18:53,487INFO[root][emp_params.py(test05_delete_emp:77)]-删除员工结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}

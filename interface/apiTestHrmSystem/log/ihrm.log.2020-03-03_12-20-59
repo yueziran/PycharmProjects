@@ -1,0 +1,5 @@
+2020-03-03 12:20:58,996INFO[root][login_params.py(test01_login_success:24)]-登录成功结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '536757a0-3a9e-4da7-9b91-30df7beef7e2'}
+2020-03-03 12:20:59,077INFO[root][login_params.py(test01_login_success:24)]-登录成功结果：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-03 12:20:59,149INFO[root][login_params.py(test01_login_success:24)]-登录成功结果：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-03 12:20:59,215INFO[root][login_params.py(test01_login_success:24)]-登录成功结果：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-03 12:20:59,287INFO[root][login_params.py(test01_login_success:24)]-登录成功结果：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
