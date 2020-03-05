@@ -11,7 +11,8 @@ suite = unittest.TestSuite()
 suite.addTest(unittest.makeSuite(TestLogin))
 suite.addTest(unittest.makeSuite(TestEmployee))
 # 定义生成测试套件的名称
-report_path = os.path.dirname(os.path.abspath(__file__))+"/report/report{}.html".format(time.strftime("%Y%m%d%H%M%S"))
+# report_path = os.path.dirname(os.path.abspath(__file__))+"/report/report{}.html".format(time.strftime("%Y%m%d%H%M%S"))
+report_path = os.path.dirname(os.path.abspath(__file__))+"/report/report.html"
 
 
 # 打开测试报告，写入模式打开，然后利用HTMLTestRunner_PY3插件生成测试报告
