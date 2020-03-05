@@ -1,4 +1,12 @@
 import os
+import sys
+curPath = os.path.abspath(os.path.dirname(__file__))
+parentPath = os.path.split(curPath)[0]
+rootPath = os.path.split(parentPath)[0]
+sys.path.append(rootPath)
+# print(curPath)
+# print(parentPath)
+# print(rootPath)
 
 import time
 from HTMLTestRunner_PY3 import HTMLTestRunner
